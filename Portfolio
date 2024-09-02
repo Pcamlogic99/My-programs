@@ -1,0 +1,47 @@
+**CSS (Cascading Style Sheets)** hutumika kwa ajili ya kusimamia muonekano na mpangilio wa tovuti. Hii inajumuisha mambo kama rangi, fonti, nafasi, na upangaji wa vipengele kwenye ukurasa wa wavuti. Hapa kuna maudhui ya msingi ya faili ya CSS ambayo unaweza kutumia kama mwongozo:
+
+### **Mfano wa Maudhui ya Faili la CSS**
+
+1. **Msingi wa CSS:**
+   - Msingi wa CSS unajumuisha **selectors** na **properties** ambazo zinaelezea jinsi vipengele vya HTML vinavyotakiwa kuonekana.
+   
+   ```css
+   /* Mfano wa Kuweka Mpangilio wa Msingi */
+   body {
+       font-family: Arial, sans-serif;
+       background-color: #f4f4f4;
+       margin: 0;
+       padding: 0;
+   }
+   
+   h1 {
+       color: #333;
+       text-align: center;
+   }
+   
+   p {
+       font-size: 16px;
+       line-height: 1.5;
+       color: #666;
+       margin: 20px;
+   }
+   ```
+
+2. **Styling ya Vipengele vya HTML:**
+   - Unaweza kutumia CSS kubadilisha jinsi vipengele vya HTML vinavyoonekana kama vile **headers (h1, h2, h3)**, **paragraphs (p)**, **links (a)**, na **images (img)**.
+   
+   ```css
+   a {
+       color: #0066cc;
+       text-decoration: none;
+   }
+   
+   a:hover {
+       color: #004499;
+   }
+   
+   img {
+       max-width: 100%;
+       height: auto;
+       border-radius: 8px;
+  
